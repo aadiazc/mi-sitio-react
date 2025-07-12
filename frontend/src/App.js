@@ -7,6 +7,9 @@ import Login from './Login'; // 👈 Importa el nuevo componente
 
 function App() {
   return (
+     <>
+      <h1>Hola, este es mi nuevo cambio</h1>
+
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -19,6 +22,8 @@ function App() {
         }
       />
     </Routes>
+    </>
+
   );
 }
 
